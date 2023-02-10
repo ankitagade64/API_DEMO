@@ -6,6 +6,7 @@ const router=express.Router();
 let products=[];
 
 router.get('/',(req,res)=>{
+    res.json({"hey":"nodejs"})
     console.log(products);
     res.send(products);
 });
