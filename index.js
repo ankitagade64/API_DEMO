@@ -4,7 +4,8 @@ import productRoutes from './routes/products.js';
 
 
 const app=express();
-const PORT=5000;
+const PORT=3000;
+const HOST='0.0.0.0';
 
 
 app.get('/',(req,res)=>{
